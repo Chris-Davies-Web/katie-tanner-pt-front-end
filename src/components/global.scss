@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  height: 100%;
+}
+body > div,
+body > div > div,
+body .layout {
+  height: 100%;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.content {
+  max-width: 2200px;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-top: 80px;
+
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+  }
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
