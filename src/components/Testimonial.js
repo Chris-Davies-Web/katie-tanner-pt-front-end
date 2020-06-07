@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, StaticQuery, Link } from "gatsby"
 import Swiper from "./Swiper"
 import Fade from "react-reveal/Fade"
 

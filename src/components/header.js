@@ -1,6 +1,4 @@
-import { Link } from "gatsby"
 import React, { useEffect, useState } from "react"
-import SiteInfo from "./SiteInfo"
 import Logo from "./Logo"
 import "./header.scss"
 import MainMenu from "./MainMenu"

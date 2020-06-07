@@ -1,9 +1,6 @@
 import { Link, useStaticQuery } from "gatsby"
 import React, { useState } from "react"
-import SiteInfo from "./SiteInfo"
-import Logo from "./Logo"
 import "./header.scss"
-import MainMenu from "./MainMenu"
 import Burger from "@animated-burgers/burger-arrow"
 import "@animated-burgers/burger-arrow/dist/styles.css"
 

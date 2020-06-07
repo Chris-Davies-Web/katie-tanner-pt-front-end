@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, useStaticQuery, StaticQuery, Link } from "gatsby"
+import { graphql, StaticQuery, Link } from "gatsby"
 
 const MainMenu = () => (
   <StaticQuery

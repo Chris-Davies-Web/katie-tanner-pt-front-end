@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, StaticQuery, Link } from "gatsby"
+import { graphql, StaticQuery } from "gatsby"
 import Testimonial from "./Testimonial"
 import "../components/testimonial.scss"
 

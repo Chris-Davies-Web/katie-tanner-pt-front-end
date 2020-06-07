@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, StaticQuery, Link } from "gatsby"
-import { node } from "prop-types"
 
 const Logo = () => (
   <StaticQuery

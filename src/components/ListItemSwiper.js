@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, StaticQuery, Link } from "gatsby"
 
 const ListItemSwiper = ({ node }) => {
   return (

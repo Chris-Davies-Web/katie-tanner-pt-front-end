@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, StaticQuery, Link } from "gatsby"
+import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
 
 const ListItem = ({ node }) => {

@@ -1,6 +1,4 @@
 import React from "react"
-import { graphql, StaticQuery, Link } from "gatsby"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import Fade from "react-reveal/Fade"
 import {
