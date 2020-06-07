@@ -11,6 +11,7 @@ const Hero = () => (
         allWordpressPage {
           edges {
             node {
+              id
               acf {
                 homepage_about_me_point_one
                 homepage_about_me_point_two
@@ -57,7 +58,7 @@ const Hero = () => (
       <div className="hero">
         {props.allWordpressPage.edges.map(edge =>
           edge.node.slug == "home" ? (
-            <div>
+            <div key={edge.node.id}>
               <SiteInfo extraData={edge.node.acf} />
               <Slider />
             </div>

@@ -28,7 +28,7 @@ const ServiceWrapper = () => {
         }
       `}
       render={props => (
-        <div class="services-container">
+        <div className="services-container">
           <h2>What I do</h2>
           <div className="services-wrapper">
             {props.allWordpressWpServices.edges.map(service => (

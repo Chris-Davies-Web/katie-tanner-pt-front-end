@@ -11,6 +11,7 @@ const TestimonialWrapper = () => {
           allWordpressWpTestimonial(limit: 4) {
             edges {
               node {
+                id
                 acf {
                   testimonial_quote
                   client_name

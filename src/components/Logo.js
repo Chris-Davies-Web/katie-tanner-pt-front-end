@@ -9,6 +9,7 @@ const Logo = () => (
         allWordpressWpMedia {
           edges {
             node {
+              id
               slug
               source_url
               title
@@ -23,7 +24,7 @@ const Logo = () => (
       <div className="logo">
         {props.allWordpressWpMedia.edges.map(edge =>
           edge.node.path === "/logo/" ? (
-            <Link to="/">
+            <Link to="/" key={edge.node.id}>
               <img src={edge.node.source_url} alt={edge.node.alt_text} />
             </Link>
           ) : (
