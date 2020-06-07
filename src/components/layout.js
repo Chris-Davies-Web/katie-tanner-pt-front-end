@@ -1,6 +1,6 @@
 import React from "react"
 import "./global.scss"
-import Header from "./Header"
+import Header from "./header"
 import Footer from "./Footer"
 
 const Layout = ({ children }) => (
